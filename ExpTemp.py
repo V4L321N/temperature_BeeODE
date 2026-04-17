@@ -7,7 +7,7 @@ switch_timeline = np.linspace(0, 105, 105)
 Temp_l = 35.8
 Temp_r = 32.2
 
-RealTemp_ALL = pd.read_csv("C:\\Users\\vstok\\Desktop\\WIPx_Arena_Gradienten.csv")
+RealTemp_ALL = pd.read_csv("WIPx_Arena_Gradienten.csv")
 T_L = RealTemp_ALL.loc[:,'T Left']
 STD = RealTemp_ALL.loc[:,'std_dev_L']
 

@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-individual_runs_36_36 = pd.read_csv("C:\\Users\\vstok\\Desktop\\individual_runs_36_36_last.csv")
+individual_runs_36_36 = pd.read_csv("individual_runs_36_36_last.csv")
 
 timeline = np.linspace(0, 30, 31)
 

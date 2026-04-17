@@ -4,7 +4,7 @@ import pandas as pd
 from numpy import linspace, zeros, asarray
 
 timeline = np.linspace(0, 30, 31)
-new_Data_36_32 = pd.read_csv("C:\\Users\\vstok\\Desktop\\36_32_last.csv")
+new_Data_36_32 = pd.read_csv("36_32_last.csv")
 
 min_L_36_32 = new_Data_36_32.loc[:,'min_L']
 q_one_L_36_32 = new_Data_36_32.loc[:,'q_one_L']

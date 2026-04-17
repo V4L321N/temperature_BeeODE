@@ -22,7 +22,7 @@ Exp_36_36 = [
             ]
 
 
-new_Data_36_30 = pd.read_csv("\\36_30.csv")
+new_Data_36_30 = pd.read_csv("36_30.csv")
 
 min_L_36_30 = new_Data_36_30.loc[:,'min_L']
 q_one_L_36_30 = new_Data_36_30.loc[:,'q_one_L']
@@ -44,7 +44,7 @@ max_R_36_30 = new_Data_36_30.loc[:,'max_R']
 
 ################################
 
-new_Data_36_32 = pd.read_csv("\\36_32.csv")
+new_Data_36_32 = pd.read_csv("36_32.csv")
 
 min_L_36_32 = new_Data_36_32.loc[:,'min_L']
 q_one_L_36_32 = new_Data_36_32.loc[:,'q_one_L']
@@ -66,7 +66,7 @@ max_R_36_32 = new_Data_36_32.loc[:,'max_R']
 
 ################################
 
-new_Data_36_36 = pd.read_csv("\\36_36.csv")
+new_Data_36_36 = pd.read_csv("36_36.csv")
 
 min_L_36_36 = new_Data_36_36.loc[:,'min_L']
 q_one_L_36_36 = new_Data_36_36.loc[:,'q_one_L']

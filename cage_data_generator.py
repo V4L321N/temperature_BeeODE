@@ -8,7 +8,7 @@ from matplotlib.lines import Line2D
 EXP_NO_CAGE_L = [62.50,71.88,79.17,87.50,95.83]         #all minute 30
 EXP_NO_CAGE_C =	[0.00,8.33,14.58,21.88,29.17]
 EXP_NO_CAGE_R = [0.00,3.13,6.25,9.38,12.50]
-CAGE_data = pd.read_csv("C:\\Users\\vstok\\Desktop\\cage.csv")
+CAGE_data = pd.read_csv("cage.csv")
 
 min_L_CAGE = CAGE_data.loc[:,'min_L']
 q_one_L_CAGE = CAGE_data.loc[:,'q_one_L']

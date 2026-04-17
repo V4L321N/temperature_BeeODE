@@ -32,7 +32,7 @@ timeline = np.linspace(0, 30, 31)
 switch_timeline = np.linspace(0, 105, 106)
 
 
-RealTemp_ALL = pd.read_csv("C:\\Users\\vstok\\Desktop\\WIPx_Arena_Gradienten.csv")
+RealTemp_ALL = pd.read_csv("WIPx_Arena_Gradienten.csv")
 df = RealTemp_ALL.loc[:,'T Left']
 print(df)
 RealTemp_L = []
@@ -195,7 +195,7 @@ def euler_ODE_LFR():
     plt.xlabel('time[minutes]', fontsize="15")
     plt.ylabel('bees[%]', fontsize="15")
     #plt.title('Comparison of experimental data [36°C/30°C] and the solutions of the differential equations', fontsize=10)
-    #save_results_to = r"C:\Users\vstok\Desktop\Atom-Projects\ODE_BEES\BEECLUST_cage"
+    #save_results_to = "."
     #plt.savefig(save_results_to + '\experiment3630.png', dpi = 300)
     plt.show()
     return(L, F, R)

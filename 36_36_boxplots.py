@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-new_Data_36_36 = pd.read_csv("C:\\Users\\vstok\\Desktop\\36_36.csv")
+new_Data_36_36 = pd.read_csv("36_36.csv")
 
 min_L_36_36 = new_Data_36_36.loc[:,'min_L']
 q_one_L_36_36 = new_Data_36_36.loc[:,'q_one_L']

@@ -6,7 +6,7 @@ import pandas as pd
 #######_EXPERIMENT_DATA_#######################################
 
 
-Data_SWITCH = pd.read_csv("C:\\Users\\vstok\\Desktop\\SWITCH_exp_last.csv")
+Data_SWITCH = pd.read_csv("SWITCH_exp_last.csv")
 
 min_L_SWITCH = Data_SWITCH.loc[:,'min_L']
 q_one_L_SWITCH = Data_SWITCH.loc[:,'q_one_L']
