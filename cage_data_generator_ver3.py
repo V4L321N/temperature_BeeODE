@@ -8,7 +8,7 @@ from matplotlib.lines import Line2D
 EXP_NO_CAGE_L = [62.50/100,71.88/100,79.17/100,87.50/100,95.83/100]         #all minute 30
 EXP_NO_CAGE_C =	[0.00/100,8.33/100,14.58/100,21.88/100,29.17/100]
 EXP_NO_CAGE_R = [0.00/100,3.13/100,6.25/100,9.38/100,12.50/100]
-CAGE_data = pd.read_csv("C:\\Users\\vstok\\Desktop\\cage_last.csv")
+CAGE_data = pd.read_csv("\\cage_last.csv")
 
 min_L_CAGE = CAGE_data.loc[:,'min_L']
 q_one_L_CAGE = CAGE_data.loc[:,'q_one_L']
@@ -329,7 +329,7 @@ from matplotlib.lines import Line2D
 EXP_NO_CAGE_L = [62.50/100,71.88/100,79.17/100,87.50/100,95.83/100]         #all minute 30
 EXP_NO_CAGE_C =	[0.00/100,8.33/100,14.58/100,21.88/100,29.17/100]
 EXP_NO_CAGE_R = [0.00/100,3.13/100,6.25/100,9.38/100,12.50/100]
-CAGE_data = pd.read_csv("C:\\Users\\vstok\\Desktop\\cage_last.csv")
+CAGE_data = pd.read_csv("\\cage_last.csv")
 
 min_L_CAGE = CAGE_data.loc[:,'min_L']
 q_one_L_CAGE = CAGE_data.loc[:,'q_one_L']
