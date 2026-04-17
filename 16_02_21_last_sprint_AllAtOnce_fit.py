@@ -22,7 +22,7 @@ Exp_36_36 = [
             ]
 
 
-new_Data_36_30 = pd.read_csv("C:\\Users\\vstok\\Desktop\\36_30.csv")
+new_Data_36_30 = pd.read_csv("\\36_30.csv")
 
 min_L_36_30 = new_Data_36_30.loc[:,'min_L']
 q_one_L_36_30 = new_Data_36_30.loc[:,'q_one_L']
@@ -44,7 +44,7 @@ max_R_36_30 = new_Data_36_30.loc[:,'max_R']
 
 ################################
 
-new_Data_36_32 = pd.read_csv("C:\\Users\\vstok\\Desktop\\36_32.csv")
+new_Data_36_32 = pd.read_csv("\\36_32.csv")
 
 min_L_36_32 = new_Data_36_32.loc[:,'min_L']
 q_one_L_36_32 = new_Data_36_32.loc[:,'q_one_L']
@@ -66,7 +66,7 @@ max_R_36_32 = new_Data_36_32.loc[:,'max_R']
 
 ################################
 
-new_Data_36_36 = pd.read_csv("C:\\Users\\vstok\\Desktop\\36_36.csv")
+new_Data_36_36 = pd.read_csv("\\36_36.csv")
 
 min_L_36_36 = new_Data_36_36.loc[:,'min_L']
 q_one_L_36_36 = new_Data_36_36.loc[:,'q_one_L']
@@ -263,7 +263,7 @@ def euler_ODE_LFR_1():
     plt.xlabel('time / minutes')
     plt.ylabel('bees / %')
     plt.title('Comparison of experimental data [36°C/30°C] and the solutions of the differential equations with x1='+str(round(x1,4)), fontsize=10)
-    #save_results_to = r"C:\Users\vstok\Desktop\Atom-Projects\ODE_BEES\BEECLUST_cage"
+    #save_results_to = r"..\ODE_BEES\BEECLUST_cage"
     #plt.savefig(save_results_to + '\experiment3630.png', dpi = 300)
     plt.show()
     print(L)
@@ -300,7 +300,7 @@ def euler_ODE_LFR_2():
     plt.xlabel('time / minutes')
     plt.ylabel('bees / %')
     plt.title('Comparison of experimental data [36°C/32°C] and the solutions of the differential equations with x1='+str(round(x1,4)), fontsize=10)
-    #save_results_to = r"C:\Users\vstok\Desktop\Atom-Projects\ODE_BEES\BEECLUST_cage"
+    #save_results_to = r"..\ODE_BEES\BEECLUST_cage"
     #plt.savefig(save_results_to + '\experiment3630.png', dpi = 300)
     plt.show()
     return(L, F, R)
@@ -336,7 +336,7 @@ def euler_ODE_LFR_3():
     plt.xlabel('time / minutes')
     plt.ylabel('bees / %')
     plt.title('Comparison of experimental data [36°C/36°C] and the solutions of the differential equations with x1='+str(round(x1,4)), fontsize=10)
-    #save_results_to = r"C:\Users\vstok\Desktop\Atom-Projects\ODE_BEES\BEECLUST_cage"
+    #save_results_to = r"..\ODE_BEES\BEECLUST_cage"
     #plt.savefig(save_results_to + '\experiment3630.png', dpi = 300)
 
     plt.show()
